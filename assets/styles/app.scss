@@ -1,0 +1,34 @@
+body {
+    background-color: lightgray;
+}
+.small-profile {
+    width: 75px;
+    height: 75px;
+}
+
+.large-profile {
+    width: 125px;
+    height: 125px;
+}
+
+.signed-in {
+    .person-svg {
+        .person-svg-head,
+        .person-svg-torso {
+            fill: #c8f0b8;
+        }
+    }
+}
+
+.person-svg {
+    .person-svg-background {
+        fill: #4296FF;
+    }
+
+    .person-svg-head,
+    .person-svg-torso
+    {
+        fill: #152C70;
+    }
+}
+
